@@ -8,15 +8,15 @@ TODO
 - [ ] add youtube, IG-like sites, other? links to footer
 - [ ] add social share images
 - [ ] fix title and description tags
-- [ ] 404 page
-- [ ] favicons
-- [ ] self host fonts
 - [ ] Fix layout shift due to fonts
 - [ ] Add/change analytics
 
-TBD 
+TBD
 - [ ] newsletter
 
 Done or N/A
 - [ ] add webmentions
 - [ ] RSS feed
+- [ ] favicons
+- [ ] 404 page
+- [ ] self host fonts
