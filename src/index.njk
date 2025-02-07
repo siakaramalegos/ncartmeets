@@ -1,0 +1,38 @@
+---
+layout: layouts/base.njk
+description: Join the NC Art Meets virtual performance meetup to get all the latest web performance news and hang out with the community.
+renderData:
+  title: "NC Art Meets: A virtual web perf meetup"
+---
+
+<section>
+  <h1 class="icon-title">
+    <img src="/img/icons/brush.svg" height="50" width="50" alt="paint brush" fetchpriority="high">
+    NC Art Meets
+  </h1>
+  <p>Your source for live figure drawing, urban sketching, plein air and other drawing or painting from life events in the North Carolina Triangle area</p>
+
+  <h2>Figure Drawing</h2>
+  <div class="card-container u-grid">
+  {% for meet in meets %}
+    <div class="card">
+      <h3><a href="{{ meet.url }}">{{ meet.name }}</a></h3>
+      <p><span class="tag">{{ meet.city }}</span> <span class="tag tag-type">{{ meet.type }}</span></p>
+      <p class="location">
+        <a href="https://www.google.com/maps/place/{{ meet.location.address | encodeForUrl }}">
+          <img src="/img/icons/map_pin.svg" alt="" width="16" height="16">
+          {{ meet.location.name }}
+        </a>
+      </p>
+      <p><span class="cost">{{ meet.costPerSession }}</span>, {{ meet.cadence }}</p>
+      {% if meet.description %}
+        <p>{{ meet.description }}</p>
+      {% endif %}
+      <p><em>Always confirm event dates, times, locations, rules, and ticket requirements on their <a href="{{ meet.url }}">website</a>.</em></p>
+    </div>
+  {% endfor %}
+  </div>
+
+</section>
+
+

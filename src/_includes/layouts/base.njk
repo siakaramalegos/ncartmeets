@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {%- if title -%}
+      {% set appendedTitle = title + " | NC Art Meets" %}
+    {%- endif -%}
+    {% set renderTitle = renderData.title or appendedTitle %}
+    {% set renderDescription = renderData.description or description %}
+    <title>{{ renderTitle }}</title>
+    <meta name="description" content="{{ renderDescription }}">
+    <link rel="canonical" href="https://ncartmeets.com{{ page.url }}">
+
+    {% set css %}
+      {% include "style.css" %}
+    {% endset %}
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
+
+    <meta property="og:description" content="{{ renderDescription }}">
+    <!-- <meta property="og:url" content="https://performanceobserver.dev{{ page.url }}">
+    <meta property="og:title" content="{{ renderTitle }}">
+    <meta property="og:site_name" content="PerformanceObserver: A virtual web perf meetup">
+    <meta property="og:image" content="https://res.cloudinary.com/siacodes/image/upload/q_auto,f_auto,w_1280/v1607719366/performanceobserver/social_share_fr8mdz.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="640"> -->
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicons/site.webmanifest"> -->
+  </head>
+  <body>
+    <!-- <header class="u-container">
+      <nav>
+        <ul role="list">
+          <li><a aria-current="{% if page.url == '/' %}page{% else %}false{% endif %}" href="/">Home</a></li>
+          <li><a aria-current="{% if page.url == '/events/' %}page{% else %}false{% endif %}" href="/events/">Events</a></li>
+        </ul>
+      </nav>
+    </header> -->
+
+    <main class="u-container">
+      {{ content | safe }}
+    </main>
+
+    <footer>
+      <div class="u-container">
+        <p class="h1">
+          <img src="/img/icons/brush_white.svg" height="50" width="50" alt="paint brush" fetchpriority="high">
+          NC Art Meets
+        </p>
+        <ul role="list">
+          <!-- <li><a href="/">Home</a></li> -->
+          <!-- <li><a href="/events/">Events</a></li> -->
+          <!-- <li><a href="/feed.xml">RSS</a></li> -->
+          <li>Contact: <a href="mailto:hi@sia.codes">hi@sia.codes</a></li>
+        </ul>
+        <div class="u-text-center"><small>&copy; Sia Karamalegos</small></div>
+      </div>
+    </footer>
+  </body>
+</html>
