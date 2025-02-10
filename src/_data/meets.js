@@ -127,8 +127,8 @@ module.exports = [
     city: CITIES.c,
     location: LOCATIONS.cac,
     type: TYPES.fd,
-    costPerSession: "$20",
+    costPerSession: "$15",
     cadence: "Saturdays, 1:00-4:00pm",
-    description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Easels are provided."
+    description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Easels are provided. Price is $10 plus a $5 model fee."
   },
 ]
