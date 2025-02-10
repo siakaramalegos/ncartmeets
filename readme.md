@@ -8,8 +8,6 @@ TODO
 - [ ] add youtube, IG-like sites, other? links to footer
 - [ ] add social share images
 - [ ] fix title and description tags
-- [ ] Fix layout shift due to fonts
-- [ ] Add/change analytics
 
 TBD
 - [ ] newsletter
@@ -20,3 +18,5 @@ Done or N/A
 - [ ] favicons
 - [ ] 404 page
 - [ ] self host fonts
+- [ ] Add/change analytics
+- [ ] Fix layout shift due to fonts

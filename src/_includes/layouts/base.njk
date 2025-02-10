@@ -29,20 +29,30 @@
     <meta property="og:image:width" content="1280">
     <meta property="og:image:height" content="640"> -->
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M0F2G394JG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-M0F2G394JG');
+    </script>
+
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
     <link rel="manifest" href="/img/favicons/site.webmanifest">
   </head>
   <body>
-    <!-- <header class="u-container">
+    <header class="u-container">
       <nav>
         <ul role="list">
           <li><a aria-current="{% if page.url == '/' %}page{% else %}false{% endif %}" href="/">Home</a></li>
-          <li><a aria-current="{% if page.url == '/events/' %}page{% else %}false{% endif %}" href="/events/">Events</a></li>
+          <li><a aria-current="{% if page.url == '/map/' %}page{% else %}false{% endif %}" href="/map/">Map</a></li>
         </ul>
       </nav>
-    </header> -->
+    </header>
 
     <main class="u-container">
       {{ content | safe }}
@@ -58,7 +68,7 @@
           <!-- <li><a href="/">Home</a></li> -->
           <!-- <li><a href="/events/">Events</a></li> -->
           <!-- <li><a href="/feed.xml">RSS</a></li> -->
-          <li>Built by <a href="https://sia.codes">Sia</a>. </li>
+          <li>Built by Sia (<a href="https://sia.codes">sia.codes</a>, <a href="https://sia.studio">sia.studio</a>).</li>
           <li>Email <a href="mailto:hi@sia.codes">hi@sia.codes</a> for additions and corrections, or if you're interested in sponsoring this site.</li>
         </ul>
         <div class="u-text-center"><small>&copy; Sia Karamalegos</small></div>

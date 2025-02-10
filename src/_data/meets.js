@@ -1,13 +1,19 @@
 const CITIES = {
+  c: "Carrboro",
   d: "Durham",
   h: "Hillsborough",
   r: "Raleigh",
+  w: "Wilson",
 }
 
 const LOCATIONS = {
   afas: {
     name: "Alia Fine Art Studios",
     address: "1401 S Bloodworth St Suite 100, Raleigh, NC 27610",
+  },
+  cac: {
+    name: "The ArtsCenter (Carrboro)",
+    address: "400 Roberson Street, Carrboro NC 27510",
   },
   dac: {
     name: "Durham Arts Council",
@@ -20,6 +26,10 @@ const LOCATIONS = {
   ocac: {
     name: "Orange County Arts Commission / Eno Arts Mill Gallery",
     address: "437 Dimmocks Mill Rd #17, Hillsborough, NC 27278",
+  },
+  wac: {
+    name: "Wilson Arts Center",
+    address: "204 Nash St S, Wilson, NC 27893",
   },
   ww: {
     name: "The Wicked Witch",
@@ -73,13 +83,13 @@ module.exports = [
   },
   {
     name: "Drink and Draw",
-    url: "https://www.facebook.com/events/950496679416611/950496762749936/",
+    url: "https://thecolabraleigh.com/",
     city: CITIES.r,
     location: LOCATIONS.ww,
     type: TYPES.fd,
     costPerSession: "$12",
     cadence: "Wednesdays, 7:30-9:30pm",
-    description: "Doors open at 7pm. Modeling is 7:30 to 9:30, Hang out till 11. $12 at the door. Moderated (no instruction) figure drawing with models in various levels of dress. Poses vary in length. Each station... Wet media... [NEED CONFIRMATION ALSO BETTER WEBSITE]"
+    description: "Doors open at 7pm. Modeling is 7:30 to 9:30, Hang out till 11. $12 at the door. Moderated (no instruction) figure drawing with models in various levels and types of dress. Poses vary in length. Each station... Wet media... [NEED MORE DETAILS & CONFIRMATION OF EXISTING]"
   },
   {
     name: "Go Figure",
@@ -89,7 +99,7 @@ module.exports = [
     type: TYPES.fd,
     costPerSession: "$15",
     cadence: "Thursdays, 6:30-10:00pm",
-    description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Each station is a chair. Purchase your ticket in advance to reserve your spot. Wet media NOT allowed."
+    description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Each station is a chair. Purchase your ticket in advance to reserve your spot. Wet media NOT allowed. Atmosphere is informal and sometimes chatty."
   },
   {
     name: "Long-Pose Figure Drawing",
@@ -100,5 +110,25 @@ module.exports = [
     costPerSession: "$35",
     cadence: "Every other Friday, 6:00-9:00pm",
     description: "Moderated (no instruction) figure drawing with live nude models. Single long pose with breaks every 25 minutes. Each station includes a sturdy easel and small table or cart. Wet media allowed. Tipping the model is encouraged."
+  },
+  {
+    name: "Figurative Drawing Sessions",
+    url: "https://wilsonarts.com/workshops/",
+    city: CITIES.w,
+    location: LOCATIONS.wac,
+    type: TYPES.fd,
+    costPerSession: "$20",
+    cadence: "Generally 3rd Saturdays, 10:30am-1:00pm",
+    description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. They provide easels, drawing boards, and a variety of mediums, but feel free to bring your own supplies as well."
+  },
+  {
+    name: "Figurative Drawing Sessions",
+    url: "https://artscenterlive.org/artschool-classes/",
+    city: CITIES.c,
+    location: LOCATIONS.cac,
+    type: TYPES.fd,
+    costPerSession: "$20",
+    cadence: "Saturdays, 1:00-4:00pm",
+    description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Easels are provided."
   },
 ]

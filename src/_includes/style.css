@@ -394,3 +394,19 @@ main:has(aside) {
     padding-right: 12px;
   }
 }
+
+.google-maps {
+  height: 400px;
+  margin: 32px auto;
+  max-width: 600px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.google-maps iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
