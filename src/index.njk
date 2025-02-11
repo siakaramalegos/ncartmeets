@@ -12,29 +12,34 @@ renderData:
   </h1>
   <p>Your source for live figure drawing, urban sketching, plein air and other drawing or painting from life events in the North Carolina Triangle area</p>
   <p>
-    Don't miss an update! Sign up for our <a href="https://buttondown.com/nc-art-meets">newsletter</a>.
+    Don't miss an update! Sign up for our <a href="https://buttondown.com/nc-art-meets">newsletter</a>:
+    <form id="news-signup"
+      action="https://buttondown.com/api/emails/embed-subscribe/nc-art-meets"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.com/nc-art-meets', 'popupwindow')"
+      class="embeddable-buttondown-form"
+    >
+      <label for="bd-email">Email address</label>
+      <input type="email" name="email" id="bd-email" placeholder="you@gmail.com">
+      <input type="submit" value="Subscribe">
+    </form>
   </p>
+  <p>Jump to: <a href="#figure">figure drawing</a>, <a href="#bar">general</a></p>
 
-  <h2>Figure Drawing</h2>
+  <h2 id="figure">Figure Drawing</h2>
   <div class="card-container u-grid">
-  {% for meet in meets %}
-    <div class="card">
-      <h3><a href="{{ meet.url }}">{{ meet.name }}</a></h3>
-      <p><span class="tag">{{ meet.city }}</span> <span class="tag tag-type">{{ meet.type }}</span></p>
-      <p class="location">
-        <a href="https://www.google.com/maps/place/{{ meet.location.address | encodeForUrl }}">
-          <img src="/img/icons/map_pin.svg" alt="" width="16" height="16">
-          {{ meet.location.name }}
-        </a>
-      </p>
-      <p><span class="cost">{{ meet.costPerSession }}</span>, {{ meet.cadence }}</p>
-      {% if meet.description %}
-        <p>{{ meet.description }}</p>
-      {% endif %}
-      <p><em>Always confirm event dates, times, locations, rules, and ticket requirements on their <a href="{{ meet.url }}">website</a>.</em></p>
-    </div>
+  {% for meet in meets | filterByType('fd') %}
+    {% include 'meetCard.njk' %}
   {% endfor %}
   </div>
+
+  <h2 id="bar">General Art (& Crafts) in a Bar</h2>
+  <div class="card-container u-grid">
+    {% for meet in meets | filterByType('gb') %}
+      {% include 'meetCard.njk' %}
+    {% endfor %}
+    </div>
 
   <h2>Urban Sketching and Plein Air</h2>
   <p>Coming soon!</p>

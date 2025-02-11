@@ -6,6 +6,7 @@
   --default-color: var(--charcoal);
   --primary-color: var(--red);
   --light-blue: #cee8ed;
+  --light-red: #ffb8b8;
 
   /* FONTS */
   --geometric-humanist: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
@@ -169,6 +170,7 @@ figcaption {font-size: var(--step--1);}
   text-transform: uppercase;
 }
 .tag-type {background: var(--light-blue);}
+.tag-type[data-type="gb"] {background: var(--light-red);}
 
 a:not([class]) {
   color: currentColor;

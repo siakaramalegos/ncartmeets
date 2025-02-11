@@ -11,9 +11,17 @@ const LOCATIONS = {
     name: "Alia Fine Art Studios",
     address: "1401 S Bloodworth St Suite 100, Raleigh, NC 27610",
   },
+  bsd: {
+    name: "Beer Study Durham",
+    address: "2501 University Dr #4, Durham, NC 27707",
+  },
   cac: {
     name: "The ArtsCenter (Carrboro)",
     address: "400 Roberson Street, Carrboro NC 27510",
+  },
+  cad: {
+    name: "Crafts & Drafts",
+    address: "3117 Guess Rd Ste B, Durham, NC 27705",
   },
   dac: {
     name: "Durham Arts Council",
@@ -39,6 +47,7 @@ const LOCATIONS = {
 
 const TYPES = {
   fd: "figure drawing",
+  gb: "general/bar"
 }
 
 module.exports = [
@@ -48,9 +57,21 @@ module.exports = [
     city: CITIES.d,
     location: LOCATIONS.dac,
     type: TYPES.fd,
+    typeCode: 'fd',
     costPerSession: "$15",
     cadence: "Sundays, 1:15-3:15pm",
     description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length, typically starting with 10 90-second poses, then various poses ranging from 10-25 minutes in length. Each station includes a sturdy easel and small table or cart. Wet media allowed. Tipping the model is encouraged."
+  },
+  {
+    name: "Arts & Drafts",
+    url: "https://www.instagram.com/arts_and_drafts_drm/",
+    city: CITIES.d,
+    location: LOCATIONS.bsd,
+    type: TYPES.gb,
+    typeCode: 'gb',
+    costPerSession: "$0",
+    cadence: "Mondays, 5:00-8:00pm",
+    description: "Creative community meetup where people work on their art and/or crafts and chat it up. Beer Study has a range of beverages with some food options from the Boot Room, and BYO food allowed."
   },
   {
     name: "Life Drawing with Tom Stevens",
@@ -58,6 +79,7 @@ module.exports = [
     city: CITIES.h,
     location: LOCATIONS.ocac,
     type: TYPES.fd,
+    typeCode: 'fd',
     costPerSession: "$15",
     cadence: "2nd & 4th Tuesdays, 6:30-8:30pm",
   },
@@ -67,6 +89,7 @@ module.exports = [
     city: CITIES.r,
     location: LOCATIONS.afas,
     type: TYPES.fd,
+    typeCode: 'fd',
     costPerSession: "$20",
     cadence: "Tuesdays, 7:00-10:00pm",
     description: "These uninstructed sessions provide one nude pose for each 3 hour session, with a new model each night.  You may paint or draw, just bring your own preferred supplies. The studio has plenty of easels, drawing horses and chairs. All are welcome and no prior experience required. Tipping the model is encouraged."
@@ -77,9 +100,21 @@ module.exports = [
     city: CITIES.d,
     location: LOCATIONS.dac,
     type: TYPES.fd,
+    typeCode: 'fd',
     costPerSession: "$29 (net)",
     cadence: "Tuesdays, 6:30-8:30pm",
     description: "Instructor-led figure drawing course with live nude models. Each station includes a sturdy easel and small table or cart. Cost is $290 for the full 10-week course."
+  },
+  {
+    name: "Crafts & Drafts",
+    url: "https://www.meetup.com/drawyall/",
+    city: CITIES.d,
+    location: LOCATIONS.cad,
+    type: TYPES.gb,
+    typeCode: 'gb',
+    costPerSession: "$0",
+    cadence: "Wednesdays, 6:30-8:30pm",
+    description: "A good crowd meets every Wednesday where we draw and talk about art. Different mediums and skill levels. All types welcome. Crafts & Drafts is a DIY bar and bottle shop in North Durham with beer, wine, and non-alcoholic beverages. They also offer self-guided craft kits for purchase."
   },
   {
     name: "Drink and Draw",
@@ -87,6 +122,7 @@ module.exports = [
     city: CITIES.r,
     location: LOCATIONS.ww,
     type: TYPES.fd,
+    typeCode: 'fd',
     costPerSession: "$12",
     cadence: "Wednesdays, 7:30-9:30pm",
     description: "Doors open at 7pm. Modeling is 7:30 to 9:30, Hang out till 11. $12 at the door. Moderated (no instruction) figure drawing with models in various levels and types of dress. Poses vary in length. Each station... Wet media... [NEED MORE DETAILS & CONFIRMATION OF EXISTING]"
@@ -97,6 +133,7 @@ module.exports = [
     city: CITIES.d,
     location: LOCATIONS.gb,
     type: TYPES.fd,
+    typeCode: 'fd',
     costPerSession: "$15",
     cadence: "Thursdays, 6:30-10:00pm",
     description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Each station is a chair. Purchase your ticket in advance to reserve your spot. Wet media NOT allowed. Atmosphere is informal and sometimes chatty."
@@ -107,6 +144,7 @@ module.exports = [
     city: CITIES.d,
     location: LOCATIONS.dac,
     type: TYPES.fd,
+    typeCode: 'fd',
     costPerSession: "$35",
     cadence: "Every other Friday, 6:00-9:00pm",
     description: "Moderated (no instruction) figure drawing with live nude models. Single long pose with breaks every 25 minutes. Each station includes a sturdy easel and small table or cart. Wet media allowed. Tipping the model is encouraged."
@@ -117,6 +155,7 @@ module.exports = [
     city: CITIES.w,
     location: LOCATIONS.wac,
     type: TYPES.fd,
+    typeCode: 'fd',
     costPerSession: "$20",
     cadence: "Generally 3rd Saturdays, 10:30am-1:00pm",
     description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. They provide easels, drawing boards, and a variety of mediums, but feel free to bring your own supplies as well."
@@ -127,6 +166,7 @@ module.exports = [
     city: CITIES.c,
     location: LOCATIONS.cac,
     type: TYPES.fd,
+    typeCode: 'fd',
     costPerSession: "$15",
     cadence: "Saturdays, 1:00-4:00pm",
     description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Easels are provided. Price is $10 plus a $5 model fee."

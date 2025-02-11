@@ -7,4 +7,5 @@ module.exports = {
     return new CleanCSS({}).minify(code).styles;
   },
   encodeForUrl,
+  filterByType: (meets, typeCode) => meets.filter(meet => meet.typeCode === typeCode),
 }
