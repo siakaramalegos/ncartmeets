@@ -29,21 +29,21 @@ renderData:
 
   <h2 id="figure">Figure Drawing</h2>
   <div class="card-container u-grid">
-  {% for meet in meets | filterByType('fd') %}
+  {% for meet in meets | filterByType(['fd']) %}
     {% include 'meetCard.njk' %}
   {% endfor %}
   </div>
 
   <h2 id="bar">General Art (& Crafts) in a Bar</h2>
   <div class="card-container u-grid">
-    {% for meet in meets | filterByType('gb') %}
+    {% for meet in meets | filterByType(['gb']) %}
       {% include 'meetCard.njk' %}
     {% endfor %}
   </div>
 
   <h2 id="plein-air-usk">Urban Sketching and Plein Air</h2>
   <div class="card-container u-grid">
-    {% for meet in meets | filterByType('pa') %}
+    {% for meet in meets | filterByType(['pa', 'usk']) %}
       {% include 'meetCard.njk' %}
     {% endfor %}
   </div>

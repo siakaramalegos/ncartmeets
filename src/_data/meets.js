@@ -2,6 +2,7 @@ const CITIES = {
   c: "Carrboro",
   d: "Durham",
   h: "Hillsborough",
+  m: "Mebane",
   r: "Raleigh",
   w: "Wilson",
 }
@@ -22,6 +23,10 @@ const LOCATIONS = {
   cad: {
     name: "Crafts & Drafts",
     address: "3117 Guess Rd Ste B, Durham, NC 27705",
+  },
+  cam: {
+    name: "CAM Raleigh",
+    address: "409 W Martin St, Raleigh, NC 27603",
   },
   dac: {
     name: "Durham Arts Council",
@@ -56,6 +61,7 @@ const TYPES = {
   fd: "figure drawing",
   gb: "general/bar",
   pa: "plein air",
+  usk: "urban sketching",
 }
 
 module.exports = [
@@ -200,5 +206,27 @@ module.exports = [
     costPerSession: "$15",
     cadence: "Saturdays, 1:00-4:00pm",
     description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Easels are provided. Price is $10 plus a $5 model fee."
+  },
+  {
+    name: "Urban Sketching at CAM Raleigh",
+    url: "https://www.meetup.com/drawyall/",
+    city: CITIES.r,
+    location: LOCATIONS.cam,
+    type: TYPES.usk,
+    typeCode: 'usk',
+    costPerSession: "$0",
+    cadence: "2nd Saturdays, 1:55-4:55pm",
+    description: "Open to all skill levels. The group meets inside of CAM Raleigh and then enters the urban settings surrounding the museum in the Warehouse District, and sometimes further into downtown Raleigh. Pausing at inspiring vistas, ignored buildings, curious landscapes, or forgotten details, the goal of the Urban Drawing group is to take time to study our surroundings and exercise our dormant drawing skills. All media that can pack into a pocket, backpack, or purse are encouraged and participants please bring your own supplies. The group will depart CAM Raleigh shortly after 2:00 p.m."
+  },
+  {
+    name: "Mebane Urban Sketching",
+    url: "https://www.meetup.com/drawyall/",
+    city: CITIES.m,
+    location: LOCATIONS.v,
+    type: TYPES.usk,
+    typeCode: 'usk',
+    costPerSession: "$0",
+    cadence: "Once per month on Saturday or Sunday, time varies",
+    description: "Once per month meetup for urban sketching in and around Mebane."
   },
 ]

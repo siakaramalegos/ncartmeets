@@ -8,6 +8,7 @@
   --light-blue: #cee8ed;
   --light-red: #ffb8b8;
   --light-green: #a9d789;
+  --light-purple: #e3abed;
 
   /* FONTS */
   --geometric-humanist: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
@@ -173,6 +174,7 @@ figcaption {font-size: var(--step--1);}
 .tag-type {background: var(--light-blue);}
 .tag-type[data-type="gb"] {background: var(--light-red);}
 .tag-type[data-type="pa"] {background: var(--light-green);}
+.tag-type[data-type="usk"] {background: var(--light-purple);}
 
 a:not([class]) {
   color: currentColor;
