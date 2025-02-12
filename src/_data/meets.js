@@ -31,6 +31,10 @@ const LOCATIONS = {
     name: "Golden Belt Artists",
     address: "800 Taylor St, Durham, NC 27701",
   },
+  oc: {
+    name: "Oakwood Cemetary",
+    address: "701 Oakwood Ave, Raleigh, NC 27601",
+  },
   ocac: {
     name: "Orange County Arts Commission / Eno Arts Mill Gallery",
     address: "437 Dimmocks Mill Rd #17, Hillsborough, NC 27278",
@@ -43,11 +47,15 @@ const LOCATIONS = {
     name: "The Wicked Witch",
     address: "416 W South St, Raleigh, NC 27601",
   },
+  v: {
+    name: "Various"
+  }
 }
 
 const TYPES = {
   fd: "figure drawing",
-  gb: "general/bar"
+  gb: "general/bar",
+  pa: "plein air",
 }
 
 module.exports = [
@@ -128,6 +136,17 @@ module.exports = [
     description: "Doors open at 7pm. Modeling is 7:30 to 9:30, Hang out till 11. $12 at the door. Moderated (no instruction) figure drawing with models in various levels and types of dress. Poses vary in length. Each station... Wet media... [NEED MORE DETAILS & CONFIRMATION OF EXISTING]"
   },
   {
+    name: "Art En Plein Air - at Historic Oakwood Cemetery",
+    url: "https://www.meetup.com/art-en-plein-air-at-historic-oakwood-cemetery/",
+    city: CITIES.r,
+    location: LOCATIONS.oc,
+    type: TYPES.pa,
+    typeCode: 'pa',
+    costPerSession: "$0",
+    cadence: "1st Thursdays, 9:00-11:00am",
+    description: "Join Program Coordinator and Artist Brianna McCormick the first Thursday of every month rain or shine to draw in Plein Air at Oakwood Cemetery. This meetup is free and designed for artists of all ages and skill levels. We will meet at the office at 9am and walk together to our location for the day. Bring water, a chair or blanket and your favorite art supplies, be prepared to observe and discuss monumental art, cemetery flora and fauna, in addition to our panoramic vistas of the city of Raleigh."
+  },
+  {
     name: "Go Figure",
     url: "https://www.meetup.com/drawyall/",
     city: CITIES.d,
@@ -148,6 +167,17 @@ module.exports = [
     costPerSession: "$35",
     cadence: "Every other Friday, 6:00-9:00pm",
     description: "Moderated (no instruction) figure drawing with live nude models. Single long pose with breaks every 25 minutes. Each station includes a sturdy easel and small table or cart. Wet media allowed. Tipping the model is encouraged."
+  },
+  {
+    name: "Raleigh Outdoor Painting Group",
+    url: "https://www.meetup.com/raleigh-plain-aire-group/",
+    city: CITIES.r,
+    location: LOCATIONS.v,
+    type: TYPES.pa,
+    typeCode: 'pa',
+    costPerSession: "$0",
+    cadence: "1st and 3rd Saturdays, 10:00am-12:00pm",
+    description: "Let's paint en plein air! This is a friendly social group for people who like to paint outdoors. Bring your own art supplies and equipment: coffee, snacks, whatever makes you happy and stay for an hour or three. Don't forget to take out what you bring in. Locations are varied in and near Raleigh (parks, greenways, and more)."
   },
   {
     name: "Figurative Drawing Sessions",
