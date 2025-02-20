@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+title: "Annual Events | NC Art Meets"
+description: Annual events for live figure drawing, urban sketching, plein air and other drawing or painting from life events in the North Carolina Triangle area
+---
+
+<section>
+  <h1>Annual Events</h1>
+  <p>Annual events for live figure drawing, urban sketching, plein air and other drawing or painting from life events in the North Carolina Triangle area</p>
+
+  <div class="card-container u-grid">
+  {% for meet in annualEvents %}
+    {% include 'meetCard.njk' %}
+  {% endfor %}
+  </div>
+
+
+</section>
+
+
