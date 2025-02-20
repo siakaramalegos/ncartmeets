@@ -32,6 +32,7 @@ module.exports = [
     typeCode: 'fd',
     costPerSession: "$15",
     cadence: "2nd & 4th Tuesdays, 6:30-8:30pm",
+    description: "Moderated (no instruction) figure drawing with live nude models. Each session will offer multiple rounds of gesture and pose drawings. Artists must provide their own materials. Must have 5 pre-registrations to run the studio, so pre-register if possible."
   },
   {
     name: "Open Figure Sessions",
@@ -76,6 +77,17 @@ module.exports = [
     costPerSession: "$12",
     cadence: "Wednesdays, 7:30-9:30pm",
     description: "Doors open at 7pm. Modeling is 7:30 to 9:30, Hang out till 11. $12 at the door. Moderated (no instruction) figure drawing with models in various levels and types of dress. Poses vary in length. Each station... Wet media... [NEED MORE DETAILS & CONFIRMATION OF EXISTING]"
+  },
+  {
+    name: "Figure Drawing Arcana",
+    url: "https://durhamarts.org/dac-art-classes/",
+    city: CITIES.d,
+    location: LOCATIONS.arc,
+    type: TYPES.fd,
+    typeCode: 'fd',
+    costPerSession: "$10 suggested donation",
+    cadence: "Wednesdays, 8:00pm-10:00pm",
+    description: "Moderated (no instruction) figure drawing with live models. Poses vary in length. Wet media not allowed. Arcana is a queer underground bar and art space. It is also a private club, and you must be 21 to enter. Entrance is in the rear of the building."
   },
   {
     name: "Art En Plein Air - at Historic Oakwood Cemetery",

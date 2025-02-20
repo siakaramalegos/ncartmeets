@@ -9,6 +9,10 @@ const CITIES = {
 }
 
 const LOCATIONS = {
+  arc: {
+    name: "Arcana Durham",
+    address: "331 W Main St, Durham, NC 27701",
+  },
   afas: {
     name: "Alia Fine Art Studios",
     address: "1401 S Bloodworth St Suite 100, Raleigh, NC 27610",
