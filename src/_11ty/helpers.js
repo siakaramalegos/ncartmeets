@@ -1,5 +1,6 @@
 const CITIES = {
   c: "Carrboro",
+  ch: "Chapel Hill",
   d: "Durham",
   h: "Hillsborough",
   m: "Mebane",
@@ -9,6 +10,10 @@ const CITIES = {
 }
 
 const LOCATIONS = {
+  ack: {
+    name: "Ackland Art Museum",
+    address: "101 S Columbia St, Chapel Hill, NC 27599",
+  },
   arc: {
     name: "Arcana Durham",
     address: "331 W Main St, Durham, NC 27701",

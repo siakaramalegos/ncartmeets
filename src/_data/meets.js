@@ -86,7 +86,7 @@ module.exports = [
     type: TYPES.fd,
     typeCode: 'fd',
     costPerSession: "$10 suggested donation",
-    cadence: "Wednesdays, 8:00pm-10:00pm",
+    cadence: "Occasional Wednesdays, 8:00pm-10:00pm",
     description: "Moderated (no instruction) figure drawing with live models. Poses vary in length. Wet media not allowed. Arcana is a queer underground bar and art space. It is also a private club, and you must be 21 to enter. Entrance is in the rear of the building."
   },
   {
@@ -132,6 +132,17 @@ module.exports = [
     costPerSession: "$0",
     cadence: "1st and 3rd Saturdays, 10:00am-12:00pm",
     description: "Let's paint en plein air! This is a friendly social group for people who like to paint outdoors. Bring your own art supplies and equipment: coffee, snacks, whatever makes you happy and stay for an hour or three. Don't forget to take out what you bring in. Locations are varied in and near Raleigh (parks, greenways, and more)."
+  },
+  {
+    name: "Drawing in the Galleries",
+    url: "https://events.ackland.org/events/category/studio-saturday/",
+    city: CITIES.ch,
+    location: LOCATIONS.ack,
+    type: TYPES.gb,
+    typeCode: 'gb',
+    costPerSession: "$0",
+    cadence: "Monthly on Saturdays, 10:00am-12:00pm",
+    description: "Drawing in the Galleries happens monthly on the Ackland's Studio Saturdays. Amanda Hughes leads participants in a creative exploration of a particular object in the Ackland's collection. Participants all draw from one object using their own gallery-safe materials (paper/notebooks and dry media like crayons and pencils), then discuss what they've noticed through the process of drawing. All levels are welcome."
   },
   {
     name: "Figurative Drawing Sessions",
