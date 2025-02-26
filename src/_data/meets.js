@@ -80,13 +80,13 @@ module.exports = [
   },
   {
     name: "Figure Drawing Arcana",
-    url: "https://durhamarts.org/dac-art-classes/",
+    url: "https://instagram.com/figuredrawing_arcana/",
     city: CITIES.d,
     location: LOCATIONS.arc,
     type: TYPES.fd,
     typeCode: 'fd',
     costPerSession: "$10 suggested donation",
-    cadence: "Occasional Wednesdays, 8:00pm-10:00pm",
+    cadence: "2nd & 4th Wednesdays, 8:00pm-10:00pm",
     description: "Moderated (no instruction) figure drawing with live models. Poses vary in length. Wet media not allowed. Arcana is a queer underground bar and art space. It is also a private club, and you must be 21 to enter. Entrance is in the rear of the building."
   },
   {
@@ -102,14 +102,14 @@ module.exports = [
   },
   {
     name: "Go Figure",
-    url: "https://www.meetup.com/drawyall/",
+    url: "https://artofnickdahlstrom.com/pages/event",
     city: CITIES.d,
     location: LOCATIONS.gb,
     type: TYPES.fd,
     typeCode: 'fd',
     costPerSession: "$15",
     cadence: "Thursdays, 6:30-10:00pm",
-    description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Each station is a chair. Purchase your ticket in advance to reserve your spot. Wet media NOT allowed. Atmosphere is informal and sometimes chatty."
+    description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Each station is a chair. Purchase your ticket in advance to reserve your spot. Wet media NOT allowed. Atmosphere is informal and sometimes chatty. 18+"
   },
   {
     name: "Long-Pose Figure Drawing",
