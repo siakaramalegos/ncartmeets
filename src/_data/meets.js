@@ -24,6 +24,17 @@ module.exports = [
     description: "Creative community meetup where people work on their art and/or crafts and chat it up. Beer Study has a range of beverages with some food options from the Boot Room, and BYO food allowed."
   },
   {
+    name: "Go Figure - Community",
+    url: "https://www.meetup.com/drawyall/",
+    city: CITIES.d,
+    location: LOCATIONS.fruit,
+    type: TYPES.fd,
+    typeCode: 'fd',
+    costPerSession: "$10",
+    cadence: "1st Mondays, 7:00-9:00pm",
+    description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Each station is a chair. Purchase your ticket in advance to reserve your spot. Wet media NOT allowed. Atmosphere is informal and sometimes chatty. 18+"
+  },
+  {
     name: "Life Drawing with Tom Stevens",
     url: "https://events.humanitix.com/drop-in-life-drawing-with-tom-stevens",
     city: CITIES.h,

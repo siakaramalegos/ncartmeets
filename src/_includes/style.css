@@ -1,10 +1,16 @@
 :root {
   /* COLORS */
   --white: #fff;
-  --red: hsl(11, 100%, 33%);
-  --charcoal: #333;
+  --teal: hsl(187 100% 25% / 1);
+  --light-teal: hsl(187deg 53.45% 94%);
+  --pink: #F890C6;
+  --med-pink: hsl(329 88% 85% / 1);
+  --charcoal: hsl(187deg 14.86% 28.14%);
+  --charcoal-rgb-text: 61, 80, 82;
   --default-color: var(--charcoal);
-  --primary-color: var(--red);
+  --primary-color: var(--teal);
+  --secondary-color: var(--pink);
+  --light-grey: hsl(187deg 6.79% 89.87%);
   --light-blue: #cee8ed;
   --light-red: #ffb8b8;
   --light-green: #a9d789;
@@ -115,7 +121,7 @@
 *, *::before, *::after { box-sizing: border-box;} html {-moz-text-size-adjust: none;-webkit-text-size-adjust: none;text-size-adjust: none;}body{min-height: 100vh;line-height: 1.5;}body, h1, h2, h3, h4, p,figure, blockquote, dl, dd {margin-block-end: 0;}h1, h2, h3, h4,button, input, label {line-height: 1.1;}p, h1, h2, h3, h4, h5, h6 {overflow-wrap: break-word;}h1, h2, h3, h4, h5, h6 {text-wrap: balance;}img, picture, video, canvas, svg {display: block;max-width: 100%;} img {height: auto;}input, button, textarea, select {font: inherit;font-size: inherit;} ul[role='list'],ol[role='list'] {list-style: none;padding: 0;}
 
 body {
-  background: var(--white);
+  background: var(--light-teal);
   display: grid;
   grid-template-rows: auto 1fr auto;
   color: var(--default-color);
@@ -127,7 +133,7 @@ body {
 h1, h2, h3, h4, h5, h6, .h1 {
   font-family: var(--font-display), serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
@@ -159,7 +165,7 @@ h2, .h2 { font-size: var(--step-4); }
 h3, .h3 { font-size: var(--step-3); }
 h4 { font-size: var(--step-2); }
 :focus {
-  outline: 2px dashed var(--yellow);
+  outline: 2px dashed var(--primary-color);
   outline-offset: .25rem;
 }
 figure { margin: 0; }
@@ -224,6 +230,7 @@ a:has(svg), a:has(img), .location span {
 .u-grid {
   display: grid;
   gap: var(--grid-gutter);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .u-caps {
   text-transform: uppercase;
@@ -231,8 +238,11 @@ a:has(svg), a:has(img), .location span {
 .u-text-center {text-align: center;}
 
 .icon-title {
-  display: flex;
+  color: var(--teal);
+  display: inline-flex;
   gap: 16px;
+  /* background: url('/img/brush_stroke.svg') left center no-repeat;
+  background-size: 80%; */
 }
 .icon-title img {width: var(--step-5);}
 footer .h1 {
@@ -240,12 +250,38 @@ footer .h1 {
   gap: 10px;
 }
 footer .h1 img {width: var(--step-1);}
+footer p {font-size: var(--step--1);}
+
+.faq-container {
+  background-color: rgba(255,255,255,.5);;
+  margin: var(--grid-gutter) 0;
+  max-width: 65ch;
+}
+details:first-of-type summary {
+  border-top: 1px solid rgba(var(--charcoal-rgb-text), 0.75);
+}
+summary {
+  border: 1px solid rgba(var(--charcoal-rgb-text), 0.75);
+  border-top: none;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 16px 32px;
+}
+details div {
+  background-color: var(--light-teal);
+  border: 1px solid rgba(var(--charcoal-rgb-text), 0.75);
+  border-top: none;
+  padding: 16px 32px;
+}
+details div > * + * { margin-top: var(--flow-space, 1em);}
+details div > *:first-child {margin-top: 0;}
 
 .card-container {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top: var(--grid-gutter);
 }
 .card {
+  background-color: var(--white);
   border: 1px solid var(--default-color);
   border-radius: 20px;
   padding: var(--step-1);
@@ -295,14 +331,22 @@ nav a {
   color: var(--default-color);
   padding: 6px;
   text-decoration: none;
+  position: relative;
+  z-index: 1;
 }
-nav a[aria-current="page"] {
-  border-bottom: 1px solid var(--yellow);
-  box-shadow: var(--yellow) 0 -2px 0 0 inset;
+nav a[aria-current="page"]::after {
+  /* border-bottom: 1px solid var(--primary-color); */
+  /* box-shadow: var(--primary-color) 0 -2px 0 0 inset; */
+  content: url('/img/brush_stroke.svg');
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
 }
-nav a:hover {
-  background: var(--yellow);
-}
+/* nav a:hover {
+  background: var(--primary-color);
+} */
 
 footer {
   background: var(--charcoal);
@@ -347,7 +391,7 @@ input {
   padding: 4px;
 }
 input[type="submit"], button {
-  background-color: var(--charcoal);
+  background-color: var(--teal);
   color: #fff;
   border: none;
   border-radius: 0;
