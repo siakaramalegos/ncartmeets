@@ -134,6 +134,17 @@ module.exports = [
     description: "Moderated (no instruction) figure drawing with live nude models. Single long pose with breaks every 25 minutes. Each station includes a sturdy easel and small table or cart. Wet media allowed. Tipping the model is encouraged."
   },
   {
+    name: "Durham Plein Air",
+    url: "https://www.meetup.com/drawyall/",
+    city: CITIES.d,
+    location: LOCATIONS.v,
+    type: TYPES.pa,
+    typeCode: 'pa',
+    costPerSession: "$0",
+    cadence: "Various Saturday mornings, time will vary depending on time of year",
+    description: "Grab your travel-friendly painting supplies and/or sketchbook and join us for some art outdoors. All levels welcome! Locations are varied in and near Durham and Orange County (parks, greenways, and more)."
+  },
+  {
     name: "Raleigh Outdoor Painting Group",
     url: "https://www.meetup.com/raleigh-plain-aire-group/",
     city: CITIES.r,
