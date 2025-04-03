@@ -361,6 +361,10 @@ nav a[aria-current="page"]::after {
   font-size: var(--step--1);
   padding: 2px 8px;
 }
+.filter-container button:focus {
+  outline: 2px dashed var(--primary-color);
+  outline-offset: -3px;
+}
 
 .filter-container button:not(:first-child) {
   border-left: none;
@@ -377,7 +381,11 @@ nav a[aria-current="page"]::after {
 .card-container[data-selected-city="m"] .card:not([data-city="m"]),
 .card-container[data-selected-city="nb"] .card:not([data-city="nb"]),
 .card-container[data-selected-city="r"] .card:not([data-city="r"]),
-.card-container[data-selected-city="w"] .card:not([data-city="w"]) {
+.card-container[data-selected-city="w"] .card:not([data-city="w"]),
+.card-container[data-selected-type="fd"] .card:not([data-type="fd"]),
+.card-container[data-selected-type="gb"] .card:not([data-type="gb"]),
+.card-container[data-selected-type="pa"] .card:not([data-type="pa"]),
+.card-container[data-selected-type="usk"] .card:not([data-type="usk"]) {
   display: none;
 }
 

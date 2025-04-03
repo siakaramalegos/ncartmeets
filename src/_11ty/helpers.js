@@ -1,3 +1,4 @@
+// IMPORTANT: If you add a city, add the CSS filtering for that city
 const CITIES = {
   c: "Carrboro",
   ch: "Chapel Hill",
@@ -75,6 +76,7 @@ const LOCATIONS = {
   }
 }
 
+// IMPORTANT: If you add a type, add the CSS filtering for that type
 const TYPES = {
   fd: "figure drawing",
   gb: "general/bar",
