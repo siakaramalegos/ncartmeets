@@ -42,6 +42,10 @@ const LOCATIONS = {
     name: "Durham Arts Council",
     address: "120 Morris St, Durham, NC 27701",
   },
+  dp: {
+    name: "Duke Park",
+    address: "106 W Knox St, Durham, NC 27701",
+  },
   fruit: {
     name: "The Fruit",
     address: "305 S Dillard St, Durham, NC 27701",

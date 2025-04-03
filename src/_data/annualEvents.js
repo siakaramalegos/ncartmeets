@@ -23,4 +23,15 @@ module.exports = [
     cadence: "2025 TBA (Last event was September 27 – October 4, 2024)",
     description: "Multi-day plein air event open to artists of all types and ability levels. Work must be painted in Orange County, and a map of some potential spots is provided. You may optionally submit work to the wet paint sale though all work submitted must be for sale. Historically, a high percentage of the pieces sell."
   },
+  {
+    name: "Duke Park Plein Air Festival",
+    url: "https://www.durhamartguild.org/pleinairfest",
+    city: CITIES.d,
+    location: LOCATIONS.dp,
+    type: TYPES.pa,
+    typeCode: 'pa',
+    costPerSession: "$ TBA",
+    cadence: "2025 TBA (Last event was September 28, 2024)",
+    description: "Fundraiser for the Durham Park Foundation and organized through Durham Art Guild. I don't know much about this event yet and will post more as I learn."
+  },
 ]
