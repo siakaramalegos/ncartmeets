@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card" data-city="{{ meet.cityCode }}">
   <h3><a href="{{ meet.url }}">{{ meet.name }}</a></h3>
   <p><span class="tag">{{ meet.city }}</span> <span data-type="{{ meet.typeCode}}" class="tag tag-type">{{ meet.type }}</span></p>
   <p class="location">
@@ -16,5 +16,5 @@
   {% if meet.description %}
     <p>{{ meet.description }}</p>
   {% endif %}
-  <p><em>Always confirm event dates, times, locations, rules, and ticket requirements on their <a href="{{ meet.url }}">website</a>.</em></p>
+  <p><a href="{{ meet.url }}">website</a></p>
 </div>

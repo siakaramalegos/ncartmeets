@@ -27,27 +27,37 @@ renderData:
   </p>
   <p>Jump to: <a href="#figure">figure drawing</a>, <a href="#bar">general</a>, <a href="#plein-air-usk">plein air/urban sketching</a></p>
 
-  <h2 id="figure">Figure Drawing</h2>
-  <div class="card-container u-grid">
-  {% for meet in meets | filterByType(['fd']) %}
-    {% include 'meetCard.njk' %}
-  {% endfor %}
-  </div>
-
-  <h2 id="bar">General Art (& Crafts) in a Bar or Other Venue</h2>
-  <div class="card-container u-grid">
-    {% for meet in meets | filterByType(['gb']) %}
-      {% include 'meetCard.njk' %}
+  <h2>Triangle Art Meetups</h2>
+  <div class="filter-container">
+    <button data-city="all" role="switch" aria-selected="true">All cities</button>
+    {% for city in cities %}
+      <button data-city="{{ city.code }}" role="switch" aria-selected="false">{{ city.name }}</button>
     {% endfor %}
   </div>
-
-  <h2 id="plein-air-usk">Urban Sketching and Plein Air</h2>
-  <div class="card-container u-grid">
-    {% for meet in meets | filterByType(['pa', 'usk']) %}
+  <p><em>Always confirm event dates, times, locations, rules, and ticket requirements on that meetup's website.</em></p>
+  <div class="card-container u-grid" data-selected-city="all">
+    {% for meet in meets %}
       {% include 'meetCard.njk' %}
     {% endfor %}
   </div>
 
 </section>
 
+<script>
+  const filterButtons = document.querySelectorAll('.filter-container button')
+  const cardsContainer = document.querySelector('.card-container')
 
+  const resetButtons = () => {
+    filterButtons.forEach(button => button.setAttribute('aria-selected', false))
+  }
+
+  const handleClick = (button) => {
+    cardsContainer.setAttribute('data-selected-city', button.dataset.city)
+    resetButtons()
+    button.setAttribute('aria-selected', true)
+  }
+
+  filterButtons.forEach(button => {
+    button.addEventListener('click', () => handleClick(button))
+  })
+</script>
