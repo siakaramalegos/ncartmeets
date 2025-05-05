@@ -2,6 +2,17 @@ const { CITIES, LOCATIONS, TYPES } = require("../_11ty/helpers");
 
 module.exports = [
   {
+    name: "Figure, Fruit, and Field Artists Retreat",
+    url: "https://www.figurefruitandfield.com/",
+    city: CITIES.nva,
+    location: LOCATIONS.v,
+    type: TYPES.pa,
+    typeCode: 'pa',
+    costPerSession: "$75-175",
+    cadence: "April 2026",
+    description: "This three-day retreat invites artists of all mediums - photography, watercolor, ink, digital, or oil - to come camp on 204 acres of breathtaking Virginia landscape. Let nature be your muse as you explore rolling fields, forests, and curated artistic landmarks. Whether you're an experienced artist or picking up a sketchbook for the first time, you'll find inspiration around every corner."
+  },
+  {
     name: "North Carolina Plein Air Art Festival",
     url: "https://ncpleinair.org/",
     city: CITIES.nb,

@@ -5,6 +5,7 @@ const CITIES = {
   d: "Durham",
   h: "Hillsborough",
   m: "Mebane",
+  nva: "Nathalie, VA",
   nb: "New Bern",
   r: "Raleigh",
   w: "Wilson",
