@@ -64,6 +64,10 @@ const LOCATIONS = {
     name: "Orange County Arts Commission / Eno Arts Mill Gallery",
     address: "437 Dimmocks Mill Rd #17, Hillsborough, NC 27278",
   },
+  se: {
+    name: "The Scrap Exchange",
+    address: "2050 Chapel Hill Rd, Durham, NC 27707",
+  },
   wac: {
     name: "Wilson Arts Center",
     address: "204 Nash St S, Wilson, NC 27893",
@@ -74,7 +78,11 @@ const LOCATIONS = {
   },
   v: {
     name: "Various"
-  }
+  },
+  z: {
+    name: "Zeitgeist Gallery & Bar",
+    address: "725 N Mangum St, Durham, NC 27701",
+  },
 }
 
 // IMPORTANT: If you add a type, add the CSS filtering for that type

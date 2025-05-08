@@ -74,6 +74,18 @@ module.exports = [
     description: "Instructor-led figure drawing course with live nude models. Each station includes a sturdy easel and small table or cart. Cost is $290 for the full 10-week course."
   },
   {
+    name: "Drink and Draw",
+    url: "https://www.scrapexchange.org/workshops",
+    city: CITIES.d,
+    cityCode: 'd',
+    location: LOCATIONS.se,
+    type: TYPES.gb,
+    typeCode: 'gb',
+    costPerSession: "$0",
+    cadence: "2nd & 4th Wednesdays, 6-8pm",
+    description: "Join us at our bi-weekly Drink n' Draw. Got some art you wanna finish? Drop by The Scrap Exchange every 2nd and 4th Wednesday from 6-8pm for a chill drawing session hosted by our very own Tim Weaver! This event is 21 and up (if you're drinking), and BYOB. Beer and wine only, that's a rule. Don't get rowdy!"
+  },
+  {
     name: "Crafts & Drafts",
     url: "https://www.meetup.com/drawyall/",
     city: CITIES.d,
@@ -95,7 +107,19 @@ module.exports = [
     typeCode: 'fd',
     costPerSession: "$12",
     cadence: "Wednesdays, 7:30-9:30pm",
-    description: "Doors open at 7pm. Modeling is 7:30 to 9:30, Hang out till 11. $12 at the door. Moderated (no instruction) figure drawing with models in various levels and types of dress. Poses vary in length. Each station... Wet media... [NEED MORE DETAILS & CONFIRMATION OF EXISTING]"
+    description: "Doors open at 7pm. Modeling is 7:30 to 9:30, Hang out till 11. $12 at the door. Moderated (no instruction) figure drawing with models in various levels and types of dress. Poses vary in length. Beverages available. All skill levels welcome."
+  },
+  {
+    name: "Figure Drawing Zeitgeist",
+    url: "https://instagram.com/zeitgeist_durham/",
+    city: CITIES.d,
+    cityCode: 'd',
+    location: LOCATIONS.z,
+    type: TYPES.fd,
+    typeCode: 'fd',
+    costPerSession: "$10",
+    cadence: "1st & 3rd Wednesdays, 8pm-10pm",
+    description: "Moderated (no instruction) figure drawing with live models. Poses vary in length. Wet media not allowed. Zeitgeist is a gallery and bar. Street parking or use the lot behind the building."
   },
   {
     name: "Figure Drawing Arcana",
@@ -105,8 +129,8 @@ module.exports = [
     location: LOCATIONS.arc,
     type: TYPES.fd,
     typeCode: 'fd',
-    costPerSession: "$10 suggested donation",
-    cadence: "2nd & 4th Wednesdays, 8:00pm-10:00pm",
+    costPerSession: "$10",
+    cadence: "2nd & 4th Wednesdays, 8pm-10pm",
     description: "Moderated (no instruction) figure drawing with live models. Poses vary in length. Wet media not allowed. Arcana is a queer underground bar and art space. It is also a private club, and you must be 21 to enter. Entrance is in the rear of the building."
   },
   {
@@ -119,7 +143,7 @@ module.exports = [
     typeCode: 'pa',
     costPerSession: "$0",
     cadence: "1st Thursdays, 9:00-11:00am",
-    description: "Join Program Coordinator and Artist Brianna McCormick the first Thursday of every month rain or shine to draw in Plein Air at Oakwood Cemetery. This meetup is free and designed for artists of all ages and skill levels. We will meet at the office at 9am and walk together to our location for the day. Bring water, a chair or blanket and your favorite art supplies, be prepared to observe and discuss monumental art, cemetery flora and fauna, in addition to our panoramic vistas of the city of Raleigh."
+    description: "Come draw in Plein Air at Oakwood Cemetery. All ages and levels welcome. Meet at the office at 9am and walk together to our location for the day. Bring water, a chair or blanket and your favorite art supplies, be prepared to observe and discuss monumental art, cemetery flora and fauna, in addition to our panoramic vistas of the city of Raleigh."
   },
   {
     name: "Go Figure",
