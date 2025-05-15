@@ -218,6 +218,18 @@ module.exports = [
     description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. They provide easels, drawing boards, and a variety of mediums, but feel free to bring your own supplies as well."
   },
   {
+    name: "Saturday Muses: Sketchy Summer edition",
+    url: " https://www.instagram.com/sketchy_summer_drawings",
+    city: CITIES.r,
+    cityCode: 'r',
+    location: LOCATIONS.cb,
+    type: TYPES.fd,
+    typeCode: 'fd',
+    costPerSession: "$15",
+    cadence: "1st and 3rd Saturdays, 11am-1pm",
+    description: "Moderated (no instruction) figure drawing with live nude or partially nude models. Poses vary in length, starting with gestures and ending with a 20 min pose. Tables, chairs, and a couch available for seating, if you prefer to stand please bring your own easel. Private studio, must book in advance through Instagram DMs to receive specific location. Spots sell out. Bring your own materials. Atmosphere is informal and sometimes conversational! 18+."
+  },
+  {
     name: "Figurative Drawing Sessions",
     url: "https://artscenterlive.org/artschool-classes/",
     city: CITIES.c,

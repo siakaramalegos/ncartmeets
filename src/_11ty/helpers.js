@@ -32,6 +32,10 @@ const LOCATIONS = {
     name: "The ArtsCenter (Carrboro)",
     address: "400 Roberson Street, Carrboro NC 27510",
   },
+  cb: {
+    name: "The Carter Building",
+    address: "22 Glenwood Ave, Raleigh, NC 27603",
+  },
   cad: {
     name: "Crafts & Drafts",
     address: "3117 Guess Rd Ste B, Durham, NC 27705",
