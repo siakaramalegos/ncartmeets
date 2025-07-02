@@ -52,6 +52,10 @@ const LOCATIONS = {
     name: "Duke Park",
     address: "106 W Knox St, Durham, NC 27701",
   },
+  erb: {
+    name: "Eno River Brewing",
+    address: "329 Eno Mountain Rd, Hillsborough, NC 27278",
+  },
   fruit: {
     name: "The Fruit",
     address: "305 S Dillard St, Durham, NC 27701",

@@ -145,6 +145,18 @@ module.exports = [
     cadence: "1st Thursdays, 9:00-11:00am",
     description: "Come draw in Plein Air at Oakwood Cemetery. All ages and levels welcome. Meet at the office at 9am and walk together to our location for the day. Bring water, a chair or blanket and your favorite art supplies, be prepared to observe and discuss monumental art, cemetery flora and fauna, in addition to our panoramic vistas of the city of Raleigh."
   },
+    {
+    name: "Drink 'n' Draw",
+    url: "https://www.anneandarthur.com/drink-n-draw",
+    city: CITIES.h,
+    cityCode: 'h',
+    location: LOCATIONS.erb,
+    type: TYPES.gb,
+    typeCode: 'gb',
+    costPerSession: "$0",
+    cadence: "3rd Thursdays, 6:00-8:00pm",
+    description: "Bring your own supplies and sit at the communal tables to sketch and find inspiration with other artists. The first portion of the event is semi-structured and the remaining free form. Hosted by A&A owner Erin Campbell. Mature big kids and teens are welcome to attend when accompanied by a parent or trusted adult per the taproom policies.",
+  },
   {
     name: "Go Figure",
     url: "https://artofnickdahlstrom.com/pages/event",
