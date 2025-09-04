@@ -30,9 +30,20 @@ module.exports = [
     location: LOCATIONS.ocac,
     type: TYPES.pa,
     typeCode: 'pa',
-    costPerSession: "$25",
-    cadence: "2025 TBA (Last event was September 27 – October 4, 2024)",
+    costPerSession: "$30",
+    cadence: "Oct 1 – 3, 2025)",
     description: "Multi-day plein air event open to artists of all types and ability levels. Work must be painted in Orange County, and a map of some potential spots is provided. You may optionally submit work to the wet paint sale though all work submitted must be for sale. Historically, a high percentage of the pieces sell."
+  },
+  {
+    name: "Plein Air Abingdon",
+    url: "https://www.pleinairabingdon.com/",
+    city: "Abingdon, VA",
+    location: LOCATIONS.v,
+    type: TYPES.pa,
+    typeCode: 'pa',
+    costPerSession: "$70",
+    cadence: "Oct 1 – 4, 2025)",
+    description: "Multi-day plein air event open to artists of all types and ability levels in southwest Virginia. They also have a quick paint competition which has a lower entry fee."
   },
   {
     name: "Duke Park Plein Air Festival",
