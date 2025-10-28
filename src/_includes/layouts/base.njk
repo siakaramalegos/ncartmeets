@@ -45,16 +45,7 @@
     <link rel="manifest" href="/img/favicons/site.webmanifest">
   </head>
   <body>
-    <header class="u-container">
-      <nav>
-        <ul role="list">
-          <li><a aria-current="{% if page.url == '/' %}page{% else %}false{% endif %}" href="/">Home</a></li>
-          <li><a aria-current="{% if page.url == '/annual-events/' %}page{% else %}false{% endif %}" href="/annual-events/">Annual Events</a></li>
-          <li><a aria-current="{% if page.url == '/map/' %}page{% else %}false{% endif %}" href="/map/">Map</a></li>
-          <li><a aria-current="{% if page.url == '/about/' %}page{% else %}false{% endif %}" href="/about/">About</a></li>
-        </ul>
-      </nav>
-    </header>
+    {% include 'header.njk' %}
 
     <main class="u-container">
       {{ content | safe }}
@@ -72,6 +63,7 @@
             <li><a href="/annual-events/">Annual Events</a></li>
             <li><a href="/map/">Map</a></li>
             <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
           </ul>
           <ul role="list">
             <li>

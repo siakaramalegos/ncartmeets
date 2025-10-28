@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+title: "Contact | NC Art Meets"
+description: Have an art event in or near the North Carolina Triangle area that you'd like to add to the site? Contact me.
+---
+
+<section>
+  <h1>Contact</h1>
+  <p>Have an art event in or near the North Carolina Triangle area that you'd like to add to the site? Have a change to an existing art event? Contact me.</p>
+  <p>In your message, please include the following details necessary for the website:</p>
+  <ul>
+    <li>Name of the event</li>
+    <li>Website URL, preferably a real website though Instagram is okay</li>
+    <li>Location name and address</li>
+    <li>Description, see existing events for examples</li>
+    <li>Day/time cadence</li>
+    <li>Cost per session</li>
+  </ul>
+
+  <form name="contact" netlify netlify-honeypot="bot-field">
+    <input type="text" name="bot-field">
+    <label for="contact-name">Name</label>
+    <input type="text" name="name" id="contact-name" required>
+
+    <label for="contact-email">Email</label>
+    <input type="email" name="email" id="contact-email" required>
+
+    <label for="contact-subject">Subject</label>
+    <input type="text" id="contact-subject" name="subject">
+
+    <label for="contact-message">Message</label>
+    <textarea name="message" id="contact-message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
