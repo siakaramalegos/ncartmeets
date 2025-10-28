@@ -44,6 +44,9 @@ const LOCATIONS = {
     name: "CAM Raleigh",
     address: "409 W Martin St, Raleigh, NC 27603",
   },
+  css: {
+    name: "Crabtree Sculpture Studio",
+  },
   dac: {
     name: "Durham Arts Council",
     address: "120 Morris St, Durham, NC 27701",
@@ -96,6 +99,7 @@ const LOCATIONS = {
 // IMPORTANT: If you add a type, add the CSS filtering for that type
 const TYPES = {
   fd: "figure drawing",
+  fs: "figure sculpture",
   gb: "general/bar",
   pa: "plein air",
   usk: "urban sketching",

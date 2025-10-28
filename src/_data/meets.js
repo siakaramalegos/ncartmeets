@@ -277,4 +277,16 @@ module.exports = [
     cadence: "Once per month on Saturday or Sunday, time varies",
     description: "Once per month meetup for urban sketching in and around Mebane."
   },
+  {
+    name: "Figurative Sculpture Workshops",
+    url: "https://crabtreesculpture.weebly.com/",
+    city: CITIES.r,
+    cityCode: 'r',
+    location: LOCATIONS.css,
+    type: TYPES.fs,
+    typeCode: 'fs',
+    costPerSession: "$30-$45",
+    cadence: "Approximately every 6 weeks on a weekday evening 7-10pm",
+    description: "Moderated (no instruction) workshops for sculpting in clay with a nude model. All skill levels are welcome; the studio has stands and tools. If you're interested in participating as a sculptor or a model, please reach out through the website for details and to be added to the invite list."
+  },
 ]
