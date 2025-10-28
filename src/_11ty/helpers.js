@@ -75,6 +75,10 @@ const LOCATIONS = {
     name: "Orange County Arts Commission / Eno Arts Mill Gallery",
     address: "437 Dimmocks Mill Rd #17, Hillsborough, NC 27278",
   },
+  phq: {
+    name: "The Portal HQ",
+    address: "3801 Hillsborough St #113, Raleigh, NC 27607",
+  },
   se: {
     name: "The Scrap Exchange",
     address: "2050 Chapel Hill Rd, Durham, NC 27707",
@@ -82,10 +86,6 @@ const LOCATIONS = {
   wac: {
     name: "Wilson Arts Center",
     address: "204 Nash St S, Wilson, NC 27893",
-  },
-  ww: {
-    name: "The Wicked Witch",
-    address: "416 W South St, Raleigh, NC 27601",
   },
   v: {
     name: "Various"

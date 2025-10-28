@@ -42,17 +42,28 @@ module.exports = [
     type: TYPES.pa,
     typeCode: 'pa',
     costPerSession: "$70",
-    cadence: "Oct 1 – 4, 2025)",
+    cadence: "Oct 1 – 4, 2025",
     description: "Multi-day plein air event open to artists of all types and ability levels in southwest Virginia. They also have a quick paint competition which has a lower entry fee."
+  },
+  {
+    name: "Paint the Forest Plein Air Event",
+    url: "https://www.wakeforestguild.org/paint-the-forest-plein-air-event",
+    city: "Abingdon, VA",
+    location: LOCATIONS.v,
+    type: TYPES.pa,
+    typeCode: 'pa',
+    costPerSession: "$70",
+    cadence: "Nov 5 – 8, 2025",
+    description: "Multi-day plein air event open to artists of all types and ability levels. Work must be painted in Wake Forest at designated sites. They also have a Saturday-only option which has a lower entry fee."
   },
   {
     name: "Duke Park Plein Air Festival",
     url: "https://www.durhamartguild.org/pleinairfest",
-    city: CITIES.d,
-    location: LOCATIONS.dp,
+    city: "Wake Forest",
+    location: LOCATIONS.v,
     type: TYPES.pa,
     typeCode: 'pa',
-    costPerSession: "$ TBA",
+    costPerSession: "$25-65",
     cadence: "2025 TBA (Last event was September 28, 2024)",
     description: "Fundraiser for the Durham Park Foundation and organized through Durham Art Guild. I don't know much about this event yet and will post more as I learn."
   },

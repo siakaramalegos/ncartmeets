@@ -73,6 +73,18 @@ module.exports = [
     cadence: "Tuesdays, 6:30-8:30pm",
     description: "Instructor-led figure drawing course with live nude models. Each station includes a sturdy easel and small table or cart. Cost is $290 for the full 10-week course."
   },
+    {
+    name: "Drink and Draw",
+    url: "https://thecolabraleigh.com/",
+    city: CITIES.r,
+    cityCode: 'r',
+    location: LOCATIONS.phq,
+    type: TYPES.fd,
+    typeCode: 'fd',
+    costPerSession: "$12",
+    cadence: "Tuesdays, 7:30-9:30pm",
+    description: "Doors open at 7pm. Modeling is 7:30 to 9:30, Hang out till 11. $12 at the door. Moderated (no instruction) figure drawing with models in various levels and types of dress. Poses vary in length. All skill levels welcome."
+  },
   {
     name: "Drink and Draw",
     url: "https://www.scrapexchange.org/workshops",
@@ -96,18 +108,6 @@ module.exports = [
     costPerSession: "$0",
     cadence: "Wednesdays, 6:30-8:30pm",
     description: "A good crowd meets every Wednesday where we draw and talk about art. Different mediums and skill levels. All types welcome. Crafts & Drafts is a DIY bar and bottle shop in North Durham with beer, wine, and non-alcoholic beverages. They also offer self-guided craft kits for purchase."
-  },
-  {
-    name: "Drink and Draw",
-    url: "https://thecolabraleigh.com/",
-    city: CITIES.r,
-    cityCode: 'r',
-    location: LOCATIONS.ww,
-    type: TYPES.fd,
-    typeCode: 'fd',
-    costPerSession: "$12",
-    cadence: "Wednesdays, 7:30-9:30pm",
-    description: "Doors open at 7pm. Modeling is 7:30 to 9:30, Hang out till 11. $12 at the door. Moderated (no instruction) figure drawing with models in various levels and types of dress. Poses vary in length. Beverages available. All skill levels welcome."
   },
   {
     name: "Figure Drawing Zeitgeist",
