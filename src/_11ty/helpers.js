@@ -9,6 +9,7 @@ const CITIES = {
   nb: "New Bern",
   r: "Raleigh",
   w: "Wilson",
+  wm: "Wilmington",
 }
 
 const LOCATIONS = {
@@ -32,10 +33,6 @@ const LOCATIONS = {
     name: "The ArtsCenter (Carrboro)",
     address: "400 Roberson Street, Carrboro NC 27510",
   },
-  cb: {
-    name: "The Carter Building",
-    address: "22 Glenwood Ave, Raleigh, NC 27603",
-  },
   cad: {
     name: "Crafts & Drafts",
     address: "3117 Guess Rd Ste B, Durham, NC 27705",
@@ -43,6 +40,14 @@ const LOCATIONS = {
   cam: {
     name: "CAM Raleigh",
     address: "409 W Martin St, Raleigh, NC 27603",
+  },
+  camw: {
+    name: "Cameron Art Museum",
+    address: "3201 S 17th St, Wilmington, NC 28412",
+  },
+  cb: {
+    name: "The Carter Building",
+    address: "22 Glenwood Ave, Raleigh, NC 27603",
   },
   css: {
     name: "Crabtree Sculpture Studio",

@@ -14,6 +14,18 @@ module.exports = [
     description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length, typically starting with 10 90-second poses, then various poses ranging from 10-25 minutes in length. Each station includes a sturdy easel and small table or cart. Wet media allowed. Tipping the model is encouraged."
   },
   {
+    name: "AM Life Drawing",
+    url: "https://cameronartmuseum.org/classes_workshops/am-life-drawing-2/",
+    city: CITIES.wm,
+    cityCode: 'wm',
+    location: LOCATIONS.camw,
+    type: TYPES.fd,
+    typeCode: 'fd',
+    costPerSession: "$20 members, $25 non-members",
+    cadence: "Mondays, 9:30am-12:00pm",
+    description: "Moderated (no instruction) life drawing with professional nude models. Sessions begin with short gesture poses, then move into longer 5-/10-minute poses, and finish with 25-minute poses. Easels, small tables, and a couple of drawing horses available. Bring your own supplies. 4-session punchcards are available for $72 member/$90 non-members for AM or PM sessions. Inquire at the Museum School office."
+  },
+  {
     name: "Arts & Drafts",
     url: "https://www.instagram.com/arts_and_drafts_drm/",
     city: CITIES.d,
@@ -108,6 +120,18 @@ module.exports = [
     costPerSession: "$0",
     cadence: "Wednesdays, 6:30-8:30pm",
     description: "A good crowd meets every Wednesday where we draw and talk about art. Different mediums and skill levels. All types welcome. Crafts & Drafts is a DIY bar and bottle shop in North Durham with beer, wine, and non-alcoholic beverages. They also offer self-guided craft kits for purchase."
+  },
+  {
+    name: "PM Life Drawing",
+    url: "https://cameronartmuseum.org/classes_workshops/pm-life-drawing-2/",
+    city: CITIES.wm,
+    cityCode: 'wm',
+    location: LOCATIONS.camw,
+    type: TYPES.fd,
+    typeCode: 'fd',
+    costPerSession: "$20 members, $25 non-members",
+    cadence: "2nd and 4th Wednesdays, 6:30-9:00pm",
+    description: 'Moderated (no instruction) life drawing with professional nude models. Sessions begin with quicker "warm-up" poses, then move into longer 10-minute poses. Easels, small tables, and a couple of drawing horses available. Bring your own supplies. 4-session punchcards are available for $72 member/$90 non-members for AM or PM sessions. Inquire at the Museum School office.'
   },
   {
     name: "Figure Drawing Zeitgeist",
