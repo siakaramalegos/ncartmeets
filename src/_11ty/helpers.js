@@ -90,6 +90,10 @@ const LOCATIONS = {
     name: "The Scrap Exchange",
     address: "2050 Chapel Hill Rd, Durham, NC 27707",
   },
+  tsg: {
+    name: "Thomas Stevens Gallery",
+    address: "126 W King St, Hillsborough, NC 27278",
+  },
   wac: {
     name: "Wilson Arts Center",
     address: "204 Nash St S, Wilson, NC 27893",

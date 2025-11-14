@@ -54,11 +54,11 @@ module.exports = [
     url: "https://events.humanitix.com/drop-in-life-drawing-with-tom-stevens",
     city: CITIES.h,
     cityCode: 'h',
-    location: LOCATIONS.ocac,
+    location: LOCATIONS.tsg,
     type: TYPES.fd,
     typeCode: 'fd',
     costPerSession: "$15",
-    cadence: "2nd & 4th Tuesdays, 6:30-8:30pm",
+    cadence: "2nd Tuesdays 6:30-8:30pm & 4th Tuesdays 3:00-5:00pm",
     description: "Moderated (no instruction) figure drawing with live nude models. Each session will offer multiple rounds of gesture and pose drawings. Artists must provide their own materials. Must have 5 pre-registrations to run the studio, so pre-register if possible."
   },
   {
