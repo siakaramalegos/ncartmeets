@@ -1,5 +1,6 @@
 // IMPORTANT: If you add a city, add the CSS filtering for that city
 const CITIES = {
+  br: "Blowing Rock",
   c: "Carrboro",
   ch: "Chapel Hill",
   d: "Durham",
