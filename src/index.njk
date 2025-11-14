@@ -30,7 +30,7 @@ renderData:
   <div class="filter-container">
     <button data-city="all" role="switch" aria-selected="true">All cities</button>
     {% for city in cities %}
-      {% if city.code == 'nva' or city.code == 'br' %}
+      {% if city.code == 'nva' or city.code == 'br' or city.code == 'e' %}
       {% else %}
         <button data-city="{{ city.code }}" role="switch" aria-selected="false">{{ city.name }}</button>
       {% endif %}

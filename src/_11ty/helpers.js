@@ -4,6 +4,7 @@ const CITIES = {
   c: "Carrboro",
   ch: "Chapel Hill",
   d: "Durham",
+  e: "Elkin",
   h: "Hillsborough",
   m: "Mebane",
   nva: "Nathalie, VA",

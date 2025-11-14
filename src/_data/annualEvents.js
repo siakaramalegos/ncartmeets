@@ -8,8 +8,8 @@ module.exports = [
     location: LOCATIONS.v,
     type: TYPES.pa,
     typeCode: 'pa',
-    costPerSession: "$75-175",
-    cadence: "April 2026",
+    costPerSession: "$120-175",
+    cadence: "April 24-26, 2026",
     description: "This three-day retreat invites artists of all mediums - photography, watercolor, ink, digital, or oil - to come camp on 204 acres of breathtaking Virginia landscape. Let nature be your muse as you explore rolling fields, forests, and curated artistic landmarks. Whether you're an experienced artist or picking up a sketchbook for the first time, you'll find inspiration around every corner."
   },
   {
@@ -42,7 +42,7 @@ module.exports = [
     type: TYPES.pa,
     typeCode: 'pa',
     costPerSession: "$30",
-    cadence: "Oct 1-3, 2025)",
+    cadence: "Oct 1-3, 2025",
     description: "Multi-day plein air event open to artists of all types and ability levels. Work must be painted in Orange County, and a map of some potential spots is provided. You may optionally submit work to the wet paint sale though all work submitted must be for sale. Historically, a high percentage of the pieces sell."
   },
   {
@@ -55,6 +55,17 @@ module.exports = [
     costPerSession: "$70",
     cadence: "Oct 1-4, 2025",
     description: "Multi-day plein air event open to artists of all types and ability levels in southwest Virginia. They also have a quick paint competition which has a lower entry fee."
+  },
+  {
+    name: "Foothills Plein Air Festival",
+    url: "https://www.foothillsarts.org/pleinairfestival",
+    city: CITIES.e,
+    location: LOCATIONS.v,
+    type: TYPES.pa,
+    typeCode: 'pa',
+    costPerSession: "TBD",
+    cadence: "October 14-18, 2026",
+    description: "Multi-day plein air event open to visual artists. Artist paint outs vary in location by day: Yadkins county, Wilkes county, Surry county, and downtown Elkin. You may optionally submit work to the show which is judged with prizes. There is also a quick paint competition. Registration opens on January 1, 2026."
   },
   {
     name: "Paint the Forest Plein Air Event",
