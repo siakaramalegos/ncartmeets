@@ -131,7 +131,7 @@ module.exports = [
     typeCode: 'fd',
     costPerSession: "$20 members, $25 non-members",
     cadence: "2nd and 4th Wednesdays, 6:30-9:00pm",
-    description: 'Moderated (no instruction) life drawing with professional nude models. Sessions begin with quicker "warm-up" poses, then move into longer 10-minute poses. Easels, small tables, and a couple of drawing horses available. Bring your own supplies. 4-session punchcards are available for $72 member/$90 non-members for AM or PM sessions. Inquire at the Museum School office.'
+    description: 'Moderated (no instruction) life drawing with professional nude models. Sessions begin with quicker "warm-up" poses, then move into longer 40-minute poses (2). Easels, small tables, and a couple of drawing horses available. Bring your own supplies. 4-session punchcards are available for $72 member/$90 non-members for AM or PM sessions. Inquire at the Museum School office.'
   },
   {
     name: "Figure Drawing Zeitgeist",
