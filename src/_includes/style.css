@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6, .h1 {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
-p {
+p, li {
   max-width: 65ch;
 }
 p { font-size: var(--step-0); }
