@@ -98,18 +98,6 @@ module.exports = [
     description: "Doors open at 7pm. Modeling is 7:30 to 9:30, Hang out till 11. $12 at the door. Moderated (no instruction) figure drawing with models in various levels and types of dress. Poses vary in length. All skill levels welcome."
   },
   {
-    name: "Drink and Draw",
-    url: "https://www.scrapexchange.org/workshops",
-    city: CITIES.d,
-    cityCode: 'd',
-    location: LOCATIONS.se,
-    type: TYPES.gb,
-    typeCode: 'gb',
-    costPerSession: "$0",
-    cadence: "2nd & 4th Wednesdays, 6-8pm",
-    description: "Join us at our bi-weekly Drink n' Draw. Got some art you wanna finish? Drop by The Scrap Exchange every 2nd and 4th Wednesday from 6-8pm for a chill drawing session hosted by our very own Tim Weaver! This event is 21 and up (if you're drinking), and BYOB. Beer and wine only, that's a rule. Don't get rowdy!"
-  },
-  {
     name: "Crafts & Drafts",
     url: "https://www.meetup.com/drawyall/",
     city: CITIES.d,
@@ -134,18 +122,6 @@ module.exports = [
     description: 'Moderated (no instruction) life drawing with professional nude models. Sessions begin with quicker "warm-up" poses, then move into longer 40-minute poses (2). Easels, small tables, and a couple of drawing horses available. Bring your own supplies. 4-session punchcards are available for $72 member/$90 non-members for AM or PM sessions. Inquire at the Museum School office.'
   },
   {
-    name: "Figure Drawing Zeitgeist",
-    url: "https://instagram.com/zeitgeist_durham/",
-    city: CITIES.d,
-    cityCode: 'd',
-    location: LOCATIONS.z,
-    type: TYPES.fd,
-    typeCode: 'fd',
-    costPerSession: "$10",
-    cadence: "1st & 3rd Wednesdays, 8pm-10pm",
-    description: "Moderated (no instruction) figure drawing with live models. Poses vary in length. Wet media not allowed. Zeitgeist is a gallery and bar. Street parking or use the lot behind the building."
-  },
-  {
     name: "Figure Drawing Arcana",
     url: "https://instagram.com/figuredrawing_arcana/",
     city: CITIES.d,
@@ -168,18 +144,6 @@ module.exports = [
     costPerSession: "$0",
     cadence: "1st Thursdays, 9:00-11:00am",
     description: "Come draw in Plein Air at Oakwood Cemetery. All ages and levels welcome. Meet at the office at 9am and walk together to our location for the day. Bring water, a chair or blanket and your favorite art supplies, be prepared to observe and discuss monumental art, cemetery flora and fauna, in addition to our panoramic vistas of the city of Raleigh."
-  },
-    {
-    name: "Drink 'n' Draw",
-    url: "https://www.anneandarthur.com/drink-n-draw",
-    city: CITIES.h,
-    cityCode: 'h',
-    location: LOCATIONS.erb,
-    type: TYPES.gb,
-    typeCode: 'gb',
-    costPerSession: "$0",
-    cadence: "3rd Thursdays, 6:00-8:00pm",
-    description: "Bring your own supplies and sit at the communal tables to sketch and find inspiration with other artists. The first portion of the event is semi-structured and the remaining free form. Hosted by A&A owner Erin Campbell. Mature big kids and teens are welcome to attend when accompanied by a parent or trusted adult per the taproom policies.",
   },
   {
     name: "Go Figure",
