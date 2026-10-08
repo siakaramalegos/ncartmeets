@@ -158,6 +158,18 @@ module.exports = [
     description: "Moderated (no instruction) figure drawing with live nude models. Poses vary in length. Each station is a chair. Purchase your ticket in advance to reserve your spot. Wet media NOT allowed. Atmosphere is informal and sometimes chatty. 18+"
   },
   {
+    name: "Doodle and Drink",
+    url: "https://www.mentbev.com/event-details/doodle-drink-2026-10-01-19-00",
+    city: CITIES.d,
+    cityCode: 'd',
+    location: LOCATIONS.ment,
+    type: TYPES.gb,
+    typeCode: 'fd',
+    costPerSession: "$0",
+    cadence: "First Thursdays, 7:00-9:00pm",
+    description: "Creative community meetup where people bring their sketchbook, comics, doodles, writing, etc. to work on. Park in the North Parking Deck, 305 W Pettigrew St, Durham, NC 27701. Walk past Bert's cabin, over the water and to the other side of the train car. They are in the lower level, small alleyway across from 'the cage.'"
+  },
+  {
     name: "Long-Pose Figure Drawing",
     url: "https://durhamarts.org/dac-art-classes/",
     city: CITIES.d,
@@ -183,7 +195,7 @@ module.exports = [
   },
   {
     name: "Raleigh Outdoor Painting Group",
-    url: "https://www.meetup.com/raleigh-plain-aire-group/",
+    url: "https://www.meetup.com/drawyall/",
     city: CITIES.r,
     cityCode: 'r',
     location: LOCATIONS.v,

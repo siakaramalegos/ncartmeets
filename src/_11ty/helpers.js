@@ -74,6 +74,10 @@ const LOCATIONS = {
     name: "Golden Belt Artists",
     address: "800 Taylor St, Durham, NC 27701",
   },
+  ment: {
+    name: "Ment Beverage Co.",
+    address: "312 Blackwell St. Suite 103, Durham, NC 27701",
+  },
   oc: {
     name: "Oakwood Cemetary",
     address: "701 Oakwood Ave, Raleigh, NC 27601",
