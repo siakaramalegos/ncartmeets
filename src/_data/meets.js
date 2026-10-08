@@ -164,7 +164,7 @@ module.exports = [
     cityCode: 'd',
     location: LOCATIONS.ment,
     type: TYPES.gb,
-    typeCode: 'fd',
+    typeCode: 'gb',
     costPerSession: "$0",
     cadence: "First Thursdays, 7:00-9:00pm",
     description: "Creative community meetup where people bring their sketchbook, comics, doodles, writing, etc. to work on. Park in the North Parking Deck, 305 W Pettigrew St, Durham, NC 27701. Walk past Bert's cabin, over the water and to the other side of the train car. They are in the lower level, small alleyway across from 'the cage.'"
